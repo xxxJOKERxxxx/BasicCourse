@@ -52,6 +52,20 @@ public class Main {
         }
         System.out.println(example);
 
+        System.out.println("___________________");
+
+        int b = 2;
+        String s = switch (b) {
+            case 1 -> "one";
+            default -> "Default";
+        };
+        System.out.println(s);
+
+        System.out.println("___________________");
+
+
+
+
 
 
     }
