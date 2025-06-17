@@ -16,13 +16,41 @@ public class Main {
             a++;
             
         }
+        System.out.println("___________________");
 
-        while (a < 5) {
+        while (a < 6) {
             System.out.println(a);
             a++;
         }
-        
-        
+
+        System.out.println("___________________");
+
+
+        int[] arrai = new int[5];
+        for(int num : arrai) {
+            System.out.println(num);
+        }
+
+        System.out.println("___________________");
+
+
+        String welcome = "Hello World!";
+        String name1 = "Andrei";
+        String name2 = new String("Andrei");
+
+        System.out.println(welcome);
+
+        System.out.println("___________________");
+
+        int example = 15;
+        if (example <5) {
+            example +=10;
+        } else if (example == 15) {
+            example -=10;
+        } else {
+            example++;
+        }
+        System.out.println(example);
 
 
 
