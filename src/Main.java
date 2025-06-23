@@ -63,6 +63,50 @@ public class Main {
 
         System.out.println("___________________");
 
+        int[] array = new int[10];
+        String[] strArray = new String[5];
+
+        for (int number: array) {
+            System.out.print(number);
+        }
+        for (String str: strArray) {
+            System.out.print(str + " ");
+        }
+
+        System.out.println("___________________");
+
+        for (int i = 0; i < 10; i++) {
+            if(i%2 == 0) {
+                continue;
+            } if(i > 7) {
+                break;
+            }
+            System.out.println(i);
+        }
+
+        System.out.println("___________________");
+
+        String q = "Привет";
+        String w = "Привет";
+        String e = new String("Привет");
+
+        System.out.println(q == w);
+        System.out.println(e == q);        // true → одна и та же ссылка
+        System.out.println(e.equals(w));   // true → одинаковый текст
+        System.out.println(System.identityHashCode(q));
+        System.out.println(System.identityHashCode(e));//обьекты разные, разный хэш код
+
+        System.out.println("___________________");
+
+
+
+
+
+
+
+
+
+
 
 
 
