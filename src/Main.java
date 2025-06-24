@@ -88,6 +88,7 @@ public class Main {
 
         String q = "Привет";
         String w = "Привет";
+        String r = "Привет";
         String e = new String("Привет");
 
         System.out.println(q == w);
@@ -97,6 +98,9 @@ public class Main {
         System.out.println(System.identityHashCode(e));//обьекты разные, разный хэш код
 
         System.out.println("___________________");
+
+
+
 
 
 
