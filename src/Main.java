@@ -100,7 +100,7 @@ public class Main {
         System.out.println(System.identityHashCode(e));//обьекты разные, разный хэш код
 
         System.out.println("___________________");
-
+// массив
         int[] arrai2 = new int[5];
         for(int i = 0; i < arrai2.length; i++) {
             arrai2[i] = i;
@@ -108,23 +108,14 @@ public class Main {
         }
         System.out.println("___________________");
 
+        String[] arr = {"one", "Two", "three"};
+        for(int j = 0; j < arr.length; j++) {
+            System.out.println(arr[j]);
+        }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        arr[1] = "four";
+        for(int j = 0; j < arr.length; j++ ){
+            System.out.println(arr[j]);
+        }
     }
 }
