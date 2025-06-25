@@ -25,7 +25,7 @@ public class Main {
 
         System.out.println("___________________");
 
-
+        // цикл FOREACH
         int[] arrai = new int[5];
         for(int num : arrai) {
             System.out.println(num);
@@ -53,7 +53,7 @@ public class Main {
         System.out.println(example);
 
         System.out.println("___________________");
-
+        // оператор switch case
         int b = 2;
         String s = switch (b) {
             case 1 -> "one";
@@ -62,6 +62,8 @@ public class Main {
         System.out.println(s);
 
         System.out.println("___________________");
+
+        // цикл FOREACH
 
         int[] array = new int[10];
         String[] strArray = new String[5];
@@ -74,7 +76,7 @@ public class Main {
         }
 
         System.out.println("___________________");
-
+// оператор continue break
         for (int i = 0; i < 10; i++) {
             if(i%2 == 0) {
                 continue;
@@ -98,6 +100,14 @@ public class Main {
         System.out.println(System.identityHashCode(e));//обьекты разные, разный хэш код
 
         System.out.println("___________________");
+
+        int[] arrai2 = new int[4];
+        for(int i = 0; i < arrai2.length; i++) {
+            arrai2[i] = i;
+            System.out.println(arrai2[i]);
+        }
+        System.out.println("___________________");
+
 
 
 
