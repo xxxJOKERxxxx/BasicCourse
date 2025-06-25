@@ -101,7 +101,7 @@ public class Main {
 
         System.out.println("___________________");
 
-        int[] arrai2 = new int[4];
+        int[] arrai2 = new int[5];
         for(int i = 0; i < arrai2.length; i++) {
             arrai2[i] = i;
             System.out.println(arrai2[i]);
